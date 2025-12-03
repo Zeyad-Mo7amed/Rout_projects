@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --hover-colore: #ff5900;
+}
+
+.py-70 {
+  padding: 70px 0;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+/* 
+-------------------------------------------------------------
+nav
+-------------------------------------------------------------
+*/
+
+nav {
+  box-shadow: 0 0 3px var(--hover-colore);
+}
+
+
+nav .nave-icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--hover-colore);
+}
+
+nav .nave-img {
+  width: 55px;
+  height: 55px;
+}
+
+nav .nave-img img {
+  border: 1px solid #ffb86a;
+}
+
+nav ul li a:hover {
+  color: var(--hover-colore) !important;
+}
+
+/* 
+--------------------------------------------
+main
+--------------------------------------------
+*/
+
+main {
+  background-color: #fffbea;
+  padding: 70px 0;
+}
+
+main header .icon-1 {
+  color: #ff6900;
+}
+
+main header .top-fig {
+  top: 15px;
+  left: 30px;
+}
+
+main header .bottom-fig {
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+main header .top-span {
+  font-size: 12px;
+  background-color: #dbfce7;
+  color: #0e8a41;
+}
+
+main header img {
+  transform: scale(1.4);
+
+}
+
+main header .reduse  figure{
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+main header .reduse-2 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+main header .top-span-1 {
+  color: #1447e6;
+  background-color: #dbeafe;
+}
+
+main header .hedar-icone span {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-color: #ffedd4;
+  color: var(--hover-colore);
+  cursor: pointer;
+}
+
+main header .hedar-icone span:hover {
+  background-color: #ffd7a8;
+}
+
+main header .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--hover-colore);
+  background-color: transparent;
+  border-bottom: 2px solid var(--hover-colore);
+  border-radius: 0;
+}
+
+
+
+main header .nav-link {
+  color: oklch(55.1% 0.027 264.364);
+}
+main header .nav-link:focus,
+.nav-link:hover {
+  color: black;
+}
+
+main header .bg-tab-content {
+  background-color: #fffaec;
+}
+
+main header .ingredients .number {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: var(--hover-colore);
+}
+
+.height {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.height-1 {
+  max-height: 750px;
+  overflow-y: scroll;
+    scrollbar-width: thin;
+  scrollbar-color: oklch(75% 0.15 35/0.3) transparent;
+}
+
+.tab-content {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(75% 0.15 35/0.3) transparent;
+}
+
+main header .Instructions-number {
+  min-width: 48px;
+  max-height: 48px;
+  background-color: var(--hover-colore);
+}
+
+main header .box i {
+  width: 40px;
+  height: 40px;
+  background-color: #ffedd4;
+  color: var(--hover-colore);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main header .box {
+  background-color: #f9fafb;
+}
+
+main header .box-2 i {
+  background-color: #dbeafe;
+  color: #155dfc;
+}
+
+main header .box-3 i {
+  background-color: #fef9c2;
+  color: #d08700;
+}
+
+main header .box-4 i {
+  background-color: #ffe2e2;
+  color: #e7000b;
+}
+
+main header .box-5 i {
+  background-color: #dbfce7;
+  color: #00a63e;
+}
+
+main header .box-6 i {
+  background-color: #fce7f3;
+  color: #e60076;
+}
+
+main header .item {
+  border-left: 5px solid #e17100;
+  border-radius: 15px !important;
+}
+main header .item i {
+  color: #e17100;
+}
+
+main header .butn button {
+  background: #f54900;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 73, 0, 1) 15%,
+    rgba(231, 0, 9, 1) 68%
+  );
+}
+
+main header .butn button:hover{
+  background-color: #EF3200;
+  transform: scale(1.1);
+}
+
+main header .long-time {
+  background-color: #FEF2F2;
+  border-radius: 10px;
+  border-left: 5px solid #FB2C36;
+}
+
+main header .long-time i{
+  color: #FB2C36;
+}
+
+main header .long-time h6{
+  color: #9F0712;
+}
+
+main header .long-time p{
+  color: #EB000B;
+}
+
+
+@media screen and (max-width: 992px) {
+  
+main header .reduse  figure{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 0px;
+}
+
+main header .reduse-2 {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+}
