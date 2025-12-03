@@ -42,15 +42,13 @@ var meals = [
       "Add cashews or peanuts for extra crunch",
     ],
   },
-
-  // Meal 2 – Beef Tacos
   {
     star: 4.7,
     reviews: 180,
     prepTime: 15,
     cookTime: 30,
     users: 3,
-    imgSrc: "../img/pexels-ash-craig-122861-376464.jpg",
+    imgSrc: "./img/pexels-ash-craig-122861-376464.jpg",
     foodName: "Beef Tacos",
     decrebtion: "Crispy tacos filled with seasoned beef and fresh toppings",
     Ingredients: [
@@ -84,15 +82,13 @@ var meals = [
     ],
     extendedTour: true,
   },
-
-  // Meal 3 – Creamy Pasta Alfredo
   {
     star: 4.9,
     reviews: 310,
     prepTime: 10,
     cookTime: 20,
     users: 2,
-    imgSrc: "../img/pexels-ella-olsson-572949-1640777.jpg",
+    imgSrc: "./img/pexels-ella-olsson-572949-1640777.jpg",
     foodName: "Pasta Alfredo",
     decrebtion: "Rich and creamy Alfredo pasta with Parmesan",
     Ingredients: [
@@ -125,15 +121,13 @@ var meals = [
       "Keep heat low to avoid splitting the sauce",
     ],
   },
-
-  // Meal 4 – Grilled Salmon
   {
     star: 4.6,
     reviews: 150,
     prepTime: 15,
     cookTime: 40,
     users: 2,
-    imgSrc: "../img/pexels-jang-699953.jpg",
+    imgSrc: "./img/pexels-jang-699953.jpg",
     foodName: "Grilled Salmon",
     decrebtion: "Juicy grilled salmon with lemon and herbs",
     Ingredients: [
@@ -165,15 +159,13 @@ var meals = [
     ],
     extendedTour: true,
   },
-
-  // Meal 5 – Avocado Salad
   {
     star: 4.5,
     reviews: 95,
     prepTime: 10,
     cookTime: 0,
     users: 2,
-    imgSrc: "../img/pexels-rajesh-tp-749235-1633525.jpg",
+    imgSrc: "./img/pexels-rajesh-tp-749235-1633525.jpg",
     foodName: "Avocado Salad",
     decrebtion: "Fresh salad with avocado, tomatoes and lemon dressing",
     Ingredients: [
